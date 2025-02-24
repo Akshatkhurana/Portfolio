@@ -28,7 +28,7 @@ function Hero() {
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                 Software developer based in India
             </p>
-            <a href="#about">
+            <a href="#pro">
                 <MagicButton 
                 title = "Show my work"
                 icon = {<FaLocationArrow />}
