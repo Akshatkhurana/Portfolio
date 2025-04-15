@@ -30,3 +30,15 @@ export const projects = [
       link: "https://github.com/Akshatkhurana/Mashup",
     },
   ];
+  export const socialMedia = [
+    {
+      id: 1,
+      img: "/git.svg",
+      link: "https://github.com/Akshatkhurana"
+    },
+    {
+      id: 2,
+      img: "/link.svg",
+      link: "https://www.linkedin.com/in/akshat-khurana-107373250/"
+    },
+  ];
