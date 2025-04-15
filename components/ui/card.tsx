@@ -11,7 +11,6 @@ import cLogo from "@/public/c++.png"
 import pythonLogo from "@/public/python.png"
 import gitLogo from "@/public/git.png"
 import postmanLogo from "@/public/postman.png"
-import { div } from "motion/react-client";
 
 export function ThreeDCardDemo() {
   return (
