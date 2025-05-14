@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import {ThemeProvider} from "./provider"
-const inter = Inter({ subsets: ["latin"]});
+import { ThemeProvider } from "./provider";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Akshat's Portfolio",
@@ -15,16 +16,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
-      >
-        {children}
-      </ThemeProvider></body>
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

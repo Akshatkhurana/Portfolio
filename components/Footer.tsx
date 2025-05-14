@@ -10,7 +10,7 @@ const Footer = () => {
             />
         </div>
         <div className='flex flex-col items-center'>
-            <h1 className='heading lg:max-w-[45vw] -mt-10'>
+            <h1 className='heading lg:max-w-[45vw] -mt-10 text-white'>
                 Contact <span className='text-purple'>Me</span>
             </h1> 
             <a href="mailto:khuranaakshat33@gmail.com" target='_blank'>
