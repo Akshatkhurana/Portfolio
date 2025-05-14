@@ -69,10 +69,8 @@ export const PinContainer = ({
 
 export const PinPerspective = ({
   title,
-  href,
 }: {
   title?: string;
-  href?: string;
 }) => {
   return (
     <motion.div className="w-96 h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
